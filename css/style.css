@@ -1,0 +1,98 @@
+body {
+	background: darkolivegreen;
+}
+
+h1{
+	font-size: 60px ;
+	color: whitesmoke;
+	margin-bottom: 30px ;
+	margin-top: 30px;
+	text-align: center;
+	font-family: mandhor;
+} 
+
+h2 {
+	font-size: 60px;
+	margin: 40px 40px 40px 40px;
+	padding: 10px;
+	text-align: center;
+	font-family: bubble shine;
+}
+
+li {
+	color:  ghostwhite;
+	font-size: 30px;
+	font-family: castle-rock;
+	padding-bottom: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+img {
+	width: 230px;
+	justify-content: center;
+	border-radius: 45%;
+}
+
+
+.logo {
+	width: 150px;
+	border-radius: initial;
+}
+
+.img_moi {
+	display:flex; 
+	justify-content: center;
+}
+
+
+.compétences {
+	color: darkkhaki;
+	border:  solid;
+	border-style:inset;
+}
+
+.parcours_scolaire {
+	color: darkkhaki;
+	border:  solid;
+	border-style: inset;
+}
+
+.associations {
+	color: darkkhaki;
+	border:  solid;
+	border-style: inset;
+}
+
+.qualités {
+	color: darkkhaki;
+	border:  solid;
+	border-style: inset;
+}
+
+.coordonnées {
+	color: darkkhaki;
+	border:  solid;
+	border-style: inset;
+}
+
+.réseaux {
+	color: darkkhaki;
+	text-align: center;
+	border:  solid;
+	border-style: inset;
+}
+
+
+@media (max-device-width: 540px) 
+{
+	li{
+		font-size: 60px;
+		padding-bottom: 40px;
+		margin: 70px;
+	  }
+
+	h2{
+		font-size: 85px;
+	  }
+	}
